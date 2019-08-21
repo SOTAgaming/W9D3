@@ -1,0 +1,33 @@
+.board {
+  justify-self: center;
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.board li {
+  width: 30%;
+  background-color: lightgray;
+  list-style: none;
+  height: 50px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.board li:hover {
+  background-color: lightpink;
+}
+
+.board .x {
+  background-color: lightblue;
+}
+
+.board .o {
+  background-color: lightseagreen;
+}
+
+body {
+  justify-content: center;
+}
